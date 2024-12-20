@@ -12,6 +12,7 @@ git checkout origin/master -- compose
 git checkout origin/master -- images
 
 mv compose/* ./
+mv compose/.env.example ./.env
 mv compose/.gitignore ./
 mv compose/.vscode ./
 rm -rf compose .git
