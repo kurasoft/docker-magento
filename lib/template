@@ -14,7 +14,6 @@ git checkout origin/master -- images
 mv compose/* ./
 mv compose/.gitignore ./
 mv compose/.vscode ./
-mv images/* ./images
 rm -rf compose .git
 git init
 
