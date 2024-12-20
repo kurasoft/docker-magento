@@ -9,6 +9,7 @@ git init -qqq
 git remote add origin https://github.com/kurasoft/docker-magento
 git fetch origin -qqq
 git checkout origin/master -- compose
+git checkout origin/master -- images
 
 mv compose/* ./
 mv compose/.gitignore ./
